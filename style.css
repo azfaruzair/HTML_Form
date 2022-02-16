@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&family=Rowdies&family=Rubik&display=swap');
+
+/*font classes*/
+
+.font-rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-rowdies {
+    font-family: 'Rowdies', sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.blue-field {
+    background: linear-gradient(rgba(0, 181, 204, 1),rgba(253, 254, 254));
+    height: 200px;
+    width: 100%;
+
+}
+
+.form-container {                   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    position: relative;
+    top: -120px;
+}
+
+.form-container .form-wrapper {
+    background: white;
+    padding: 20px;
+    width: 600px;
+    margin: 10px 30px;
+    text-align: center;
+    border-top: 10px solid linear-gradient(rgba(0, 181, 204, 1),rgba(253, 254, 254));
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.459);
+    border-radius: 10px;
+}
+
+.form-container .form-wrapper .info {
+    color: rgb(255, 0, 0);
+    text-align: left;
+   /* background: rgba(0, 181, 204, 1); */
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.form-container .form-wrapper .form-field-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    padding: 20px;
+    text-align: left;
+}
+
+.form-container .form-wrapper .form-field-container .form-field { 
+    border: 2px solid rgb(129, 129, 129);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 25px 0px;
+    margin-right: 10px;
+
+}
+
+.form-container .form-wrapper .form-field-container .form-field .field-title { 
+    padding: 5px;
+    margin: 0;
+    position: relative;
+    background: white;
+    top: -20px;
+    font-weight: bold;
+} 
+
+.imp {
+    color: red;
+}
+
+.form-container .form-wrapper .form-field-container .form-field input {
+    border: none;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+    outline: none;
+    width: 100%;
+    position: relative;
+    top: -10px;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn, .fixed-action-btn {
+    border: none;
+    outline: none;
+    background: rgba(0, 181, 204, 1);
+    color: white;
+    font-size: 24px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.459);
+    cursor: pointer;
+}
+
+.fixed-action-btn {
+    border-radius: 100%;
+    position: fixed;
+    width: 50px;
+    bottom: 30px;
+    right: 20px;
+    padding: 10px;
+}
+.blue-field.logo{
+    position: relative;
+
+    width: 300px;
+    height: 150px;
+    top: 10px;
+    left: 10px;
+    
+}
+
+
+.logo{
+    padding-top: 20px;
+    padding-left: 10px;
+}

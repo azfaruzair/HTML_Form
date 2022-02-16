@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Oyester Registration Form</title>
+</head>
+<body>
+
+    <div class="blue-field">
+        <img class="logo" src="Logo.png" alt="logo">
+
+    </div>
+
+        <div class="form-container">
+
+            <div class="form-wrapper">
+                <h1 class="font-rowdies">Document Issuing Form</h1>
+                <hr>
+                <p class="info font-rubik">NOTE: All those fields are mandatory which are marked as <span class="imp">*</span></p>
+
+                <form action="connect.php" method="POST">
+
+                <div class="form-field-container font-rubik">
+                    <div class="form-field">
+                        <span class="field-title">Date Issued <span class="imp">*</span></span>
+                        <input type="date" placeholder="Date Issued" name="date" required>
+                    </div>
+                    <div class="form-field">
+                        <span class="field-title">Issued To <span class="imp">*</span></span>
+                        <input type="text" placeholder="Name" name="issuedto" required>
+                    </div>
+                    <div class="form-field">
+                        <span class="field-title">Issuing Id <span class="imp"></span></span>
+                        <input type="text" placeholder="Id no." name="issuingid" disabled>
+                    </div>
+                    <div class="form-field">
+                        <span class="field-title">Course Name <span class="imp">*</span></span>
+                        <input type="text" placeholder="Course name" name="coursename" required>
+                    </div>
+                    <div class="form-field">
+                        <span class="field-title">Course Start Date <span class="imp">*</span></span>
+                        <input type="date" placeholder="" name="startdate" required>
+                    </div>
+                    <div class="form-field ">
+                        <span class="field-title">Course End Date <span class="imp">*</span></span>
+                        <input type="date" placeholder="" name="enddate" required>
+                    </div>
+                
+
+                    <div class="form-field">
+                        <span class="field-title">Registration Id <span class="imp">*</span></span>
+                        <input type="text" placeholder="Enter your 5 digit Registration Id" name="regid" pattern="[0-9]{5}" required>
+                    </div>
+                    <div class="form-field">
+                        <span class="field-title">Signatory <span class="imp">*</span></span>
+                        <input type="text" placeholder="Signatory" name="signatory" required>
+                    </div>
+                    <div class="form-field">
+                        <span class="field-title">Attach Document <span class="imp">*</span></span>
+                        <input type="file" name="attachment"> 
+                    </div>
+
+                    <!-- <p>
+                        <input type="checkbox" >
+                        <span>I Hearby Accept <a href="#">Terms and Conditions</a></span>
+                    </p> -->
+
+                    <input type="submit" class="btn btn-info" name="submit">
+                </form>
+
+                    <button class="fixed-action-btn" title="Need Help?"><i class="fad fa-question"></i></button>
+                </div>
+            </div>
+
+        </div>
+</body>
+</html>
